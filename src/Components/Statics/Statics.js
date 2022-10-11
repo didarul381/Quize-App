@@ -6,7 +6,7 @@ const Statics = () => {
     const data=useLoaderData().data;
     console.log(data)
     return (
-        <div className='m-4 p-2'>
+        <div className='m-4 p-4'>
                <BarChart width={320} height={350} data={data} >
           <Bar dataKey="total" fill="#8884d8" />
           <XAxis dataKey="name" />
