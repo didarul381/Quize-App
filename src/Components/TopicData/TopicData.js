@@ -9,7 +9,7 @@ const TopicData = ({topic}) => {
          navigate(`/topic/${id}`)
     }
     return (
-        <div className='border-solid border-2 border-indigo-600 m-1  bg-green-400 text-yellow-50'>
+        <div className='border-solid border-2 border-indigo-600 m-2  bg-green-400 text-yellow-50'>
            <img src={logo} alt='' className='topic-img'></img> 
           <div className='flex  justify-between '>
            <div className='mb-2 '>
