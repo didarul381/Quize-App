@@ -4,7 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 import './Statics.css'
 const Statics = () => {
     const data=useLoaderData().data;
-    console.log(data)
+   // console.log(data)
     return (
         <div className='m-2 p-2'>
                <BarChart width={320} height={350} data={data} >

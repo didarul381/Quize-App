@@ -17,26 +17,27 @@ const Header = () => {
             }
 
          </div> 
-             
-                 <div className={` header flex flex-col md:flex-row justify-between p-3 w-full  bg-slate-600 text-yellow-300 absolute md:static ${open? 'top-6' : 'top-[-120px]'}`}>
-                 <h1>Quize master</h1>
+               {/* className={` header flex flex-col md:flex-row justify-between p-3 w-full  bg-slate-600 text-yellow-300 absolute md:static ${open? 'top-6' : 'top-[-120px]'}`} */}
+                 <div className={` header p-3 w-full  bg-slate-600 text-yellow-300  }`}>
+                 <h1 className='text-xl'>Quize master</h1>
+                 <ul  className={` flex flex-col md:flex-row justify-end p-2  bg-slate-600 md:text-center   text-yellow-300 absolute md:static ${open? 'top-15' : 'top-[-120px]'}`}>
+               <NavLink to='/' >Home</NavLink>
+                 <NavLink to='/topic'></NavLink>
+                 <NavLink to='/'>Topics</NavLink>
+                 <NavLink to='/blog' >Blog</NavLink>
+                 <NavLink to='/static'>Statics</NavLink>
+               </ul>
+                  
+
                  
-               <div>
-             
-                 <ul>
-                 <NavLink to='/' >Home</NavLink>
-                   <NavLink to='/topic'></NavLink>
-                   <NavLink to='/'>Topics</NavLink>
-                   <NavLink to='/blog' >Blog</NavLink>
-                   <NavLink to='/static'>Statics</NavLink>
-                 </ul>
+                
                   </div>
-               </div>
-                
-                
-                
+             
+            
                 </nav>
                 </nav>
+             
+
         </div>
     );
 }
