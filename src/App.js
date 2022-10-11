@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Navr from './copmponents/navr/Navr';
+import Card from './copmponents/card/Card';
+import Rechart from './copmponents/rechart/Rechart';
+import Phonebar from './copmponents/phonebar/Phonebar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+     <Navr></Navr>
+     <Card></Card>
+     <Rechart></Rechart>
+     <Phonebar></Phonebar>
+   
     </div>
   );
 }
