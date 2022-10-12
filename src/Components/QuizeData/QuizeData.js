@@ -32,14 +32,14 @@ const QuizeData = ({quizData}) => {
              </div>
            </div>
            <div className={` question`}>
-          <p><input type="radio"  name="fav_language"  onClick={()=>chack(options[0])}  value={(options[0])}></input>
+          <p><input type="radio"  name="language"  onClick={()=>chack(options[0])}  value={(options[0])}></input>
            <label for={options[0]}>{options[0]}</label></p> 
           <p> <input type="radio"  name="fav_language"   onClick={()=>chack(options[1])}value={ (options[1])}></input>
            <label for={options[1]}>{options[1]}</label></p>
            <p> <input type="radio"  name="fav_language"  onClick={()=>chack(options[2])} value={ (options[2])}></input>
            <label for={options[2]}>{options[2]}</label></p>
           <p> <input type="radio"  name="fav_language"  onClick={()=>chack(options[3])} value={(options[3])}></input>
-           <label for={options[2]}>{options[2]}</label><br></br></p>
+           <label for={options[3]}>{options[3]}</label><br></br></p>
              
            </div>
         </div>
