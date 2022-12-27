@@ -32,7 +32,7 @@ const QuizeData = ({quizData}) => {
              </div>
            </div>
            <div className={` question`}>
-          <p><input type="radio"  name="language"  onClick={()=>chack(options[0])}  value={(options[0])}></input>
+          <p><input type="radio"  name="fav_language"  onClick={()=>chack(options[0])}  value={(options[0])}></input>
            <label for={options[0]}>{options[0]}</label></p> 
           <p> <input type="radio"  name="fav_language"   onClick={()=>chack(options[1])}value={ (options[1])}></input>
            <label for={options[1]}>{options[1]}</label></p>
